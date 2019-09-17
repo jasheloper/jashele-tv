@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dd006234289a02e193661d8963e2d898",
+    "revision": "6377371e68786907ab2bd1e8424cf824",
     "url": "/jashele-tv/index.html"
   },
   {
-    "revision": "d942f4825021da6da3ad",
-    "url": "/jashele-tv/static/css/main.70d93641.chunk.css"
+    "revision": "911297cd5d517b44dc95",
+    "url": "/jashele-tv/static/css/main.3886ae60.chunk.css"
   },
   {
     "revision": "8b9e511cd7dc3ad681b5",
     "url": "/jashele-tv/static/js/2.ea655ae3.chunk.js"
   },
   {
-    "revision": "d942f4825021da6da3ad",
+    "revision": "911297cd5d517b44dc95",
     "url": "/jashele-tv/static/js/main.f067692e.chunk.js"
   },
   {
