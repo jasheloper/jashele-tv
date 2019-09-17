@@ -1,0 +1,23 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: linear-gradient(to bottom, rgb(185, 185, 185), #2b2626);
+  /* background-image: linear-gradient(to bottom, #2b2626, ); */
+line-height: 40px;
+margin: 0;
+font-family: 'Exo 2', sans-serif;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+a{
+text-decoration: none;
+color: #854442;
+}
+
+code {
+font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  monospace;
+}
