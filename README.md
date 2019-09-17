@@ -1,7 +1,7 @@
 # Jashele TV
 ## A live guide to help you stay up to date with the latest on TV!
 
-Jashele TV is a live TV guide that allows you to keep up with the latest episodes of your favorite TV shows.  This list updates automatically everyday, so be sure to check back whenever you're curious about the latest on TV!
+This guide that allows you to keep up with the latest episodes of your favorite TV shows.  This list updates automatically everyday, so be sure to check back whenever you're curious about the latest on TV!
 
 
 <br />
