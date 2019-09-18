@@ -28,7 +28,7 @@ This guide that allows you to keep up with the latest episodes of your favorite 
 
 <br />
 <br />
-<br />
+
 
 
 # Issues
