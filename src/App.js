@@ -16,7 +16,7 @@ class App extends React.Component {
 
     componentDidMount() {
         console.log("data: ")
-        fetch('http://api.tvmaze.com/schedule/')
+        fetch('http://api.tvmaze.com/schedule?country=US')
         .then(res => res.json())
         .then(res => this.setState({data: res}))
         .catch(err => console.log(err));
@@ -57,7 +57,9 @@ class App extends React.Component {
 
             <h1 className="showtitle">{x.show.name}</h1>
 
-            <img className="showimg" src={x.show.image.medium} alt={x.name}/> <br />
+    
+
+            {/* <img className="showimg" src={x.shows.image.medium} alt={x.name}/> <br /> */}
 
 
 

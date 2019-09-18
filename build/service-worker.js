@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/jashele-tv/precache-manifest.b5e9f9666b50418e5374921861c4266f.js"
+  "/jashele-tv/precache-manifest.06cf0a173faad1765faf04867d7e0cfe.js"
 );
 
 self.addEventListener('message', (event) => {
