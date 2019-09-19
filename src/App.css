@@ -96,12 +96,12 @@
     color: #cccccc;
     padding: 3em;
     margin: 0 auto;
-    width: 60%;
+    width: 1000px;
 }
 
 @media(max-width: 600px) {
     .about {
-        width: 60%;
+     width: 60%;
     }
 }
 
@@ -205,11 +205,21 @@
 
 
 .showimg {
+    object-fit: cover;
+    width: 200px;
+    height: 300px;
     border-radius: 1em;
     border: 10px solid white;
     -webkit-box-shadow: 1px 0 24px -6px rgba(0, 0, 0, 1);
     -moz-box-shadow: 1px 0 24px -6px rgba(0, 0, 0, 1);
     box-shadow: 1px 0 24px -6px rgba(0, 0, 0, 1);
+}
+
+.overview {
+    text-shadow: 1px 1px 2px black;
+    color: #cccccc;
+    font-size: 14px;
+    line-height: 27px;
 }
 
 

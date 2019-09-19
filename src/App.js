@@ -9,95 +9,53 @@ class App extends React.Component {
         super();
         this.state = {
 
-            data: [] 
+            data: []
         };
     }
 
-
     componentDidMount() {
-        console.log("data: ")
-        fetch('http://api.tvmaze.com/schedule?country=US')
+        fetch('https://api.themoviedb.org/3/tv/airing_today?page=1&language=en-US&api_key=61f7ba464304e92aa6c63502caee9834')
         .then(res => res.json())
-        .then(res => this.setState({data: res}))
+        .then(res => this.setState({data: res.results}))
         .catch(err => console.log(err));
     }
 
-
     render() {
-
         return (
-
-<> 
-
+<>
 <NavBar /> 
-
-
-
 <br />
-
 <div className="about">
     <h1 className="aboutheader">Welcome</h1>
-    <p className="abouttext">Jashele TV is a live TV guide that allows you to keep up with the latest episodes of your favorite TV shows.  This list updates automatically everyday, so be sure to check back whenever you're curious about the latest on TV! 📺</p>
+    <p className="abouttext">Jashele TV is a live TV guide that allows you to stay in the know of when your favorite TV shows are airing.  This list updates automatically everyday, so be sure to check back whenever you're curious about the latest on TV! 📺</p>
 
     <p className="ux">*For the best user experience, this website is best viewed on a desktop or tablet. </p>
 </div>
-
-
-
-
 <div className="shows">
-
-    {this.state.data.map(x => {
-
-        return (
-
-            <div className="episode"key={x.id}>
-
-            <div className="ashowbox">
-
-            <h1 className="showtitle">{x.show.name}</h1>
-
-    
-
-            {/* <img className="showimg" src={x.shows.image.medium} alt={x.name}/> <br /> */}
-
-
-
-
-            <a href={x.show.url} target="_blank"> <button class="moreinfo">More Info</button> </a>
-
-            <a href={x.show.officialSite} target="_blank"> <button class="moreinfo">Website</button> </a>
+{this.state.data.map(show => {
+    return(<>
+    <div className="episode"key={show.genre_ids}>
+        <div className="ashowbox">
+            <h1 className="showtitle">{show.name}</h1>
+            <img className="showimg"  src={`https://image.tmdb.org/t/p/w500${show.poster_path}`} />
+     
+        </div>
+        <div className="ashowbox right">
+            <h2>Overview</h2>
+            <p className="overview">{show.overview}</p>
+            <div className="info">Origin Country: {show.origin_country}</div> <br />
+            <div className="info">Language: {show.original_language}</div> <br />
+            <div className="info">Vote Average: {show.vote_average}</div>
+        </div>
+    </div>
+    </>)
+})}
 
 </div>
-
-<div className="ashowbox right">
-
-
-        <h3 className="episodetitle">{x.name}</h3>
-
-
-
-        <div className="info">  <b>Network:</b> {x.show.name}    </div> <br />
-        <div className="info">  <b>Season:</b> {x.season}   </div>    <br />
-        <div className="info">  <b>Air Date:</b> {x.airdate}  </div>    <br />
-        <div className="info">  <b>Time:</b> {x.show.schedule.time}   </div>    <br />
-
-
-
-</div>
-</div>
-
-)})}
-
-
-</div>
-
-
 <Footer />
 </>
-
-)}
-
-        }
+        )
+    }
+}
 
 export default App; 

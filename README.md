@@ -35,3 +35,5 @@ This guide that allows you to keep up with the latest episodes of your favorite 
 
 **Version 1.0**
 - 9/18/2019 -- The images aren't working right now.  Working on a fix for that.  Possibly will either implement an API from elsewhere or see if there's a solution somewhere. 
+
+    - **9/19/2019** -- The issue has been resolved. I ended up using an entirely different API and it works beautifully! I guess you could say we're now on version 2.0 because now there's an overview section ... that was not there before.

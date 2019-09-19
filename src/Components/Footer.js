@@ -12,7 +12,7 @@ return (
 
 
 © Jashele TV 2019 <br />
-Live API Data from <a href="http://www.tvmaze.com/" target="_blank">TVMaze.com</a>
+Live API Data from <a href="https://www.themoviedb.org/" target="_blank">The Movie DB</a>
 
 <br />
 <br />
