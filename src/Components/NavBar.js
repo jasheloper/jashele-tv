@@ -11,7 +11,7 @@ return (
 
 <div id="Nav">
 
-<img src={require('./images/jasheletv.png')} />
+<img src={require('./images/jasheletv.png')} alt="tv logo" />
 
 <div className="titleflex">
 

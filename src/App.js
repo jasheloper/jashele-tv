@@ -29,7 +29,7 @@ class App extends React.Component {
     <h1 className="aboutheader">Welcome</h1>
     <p className="abouttext">Jashele TV is a live TV guide that allows you to stay in the know of when your favorite TV shows are airing.  This list updates automatically everyday, so be sure to check back whenever you're curious about the latest on TV! 📺</p>
 
-    <p className="ux">*For the best user experience, this website is best viewed on a desktop or tablet. </p>
+
 </div>
 <div className="shows">
 {this.state.data.map(show => {
@@ -59,3 +59,6 @@ class App extends React.Component {
 }
 
 export default App; 
+
+// 61f7ba464304e92aa6c63502caee9834
+// https://api.themoviedb.org/3/tv/airing_today?page=1&language=en-US&api_key=61f7ba464304e92aa6c63502caee9834
