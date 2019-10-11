@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/jashele-tv/static/css/main.cac99aa8.chunk.css",
-    "main.js": "/jashele-tv/static/js/main.efc9127f.chunk.js",
-    "main.js.map": "/jashele-tv/static/js/main.efc9127f.chunk.js.map",
+    "main.css": "/jashele-tv/static/css/main.0a3e5734.chunk.css",
+    "main.js": "/jashele-tv/static/js/main.efa85435.chunk.js",
+    "main.js.map": "/jashele-tv/static/js/main.efa85435.chunk.js.map",
     "runtime~main.js": "/jashele-tv/static/js/runtime~main.2b522ce8.js",
     "runtime~main.js.map": "/jashele-tv/static/js/runtime~main.2b522ce8.js.map",
     "static/js/2.ea655ae3.chunk.js": "/jashele-tv/static/js/2.ea655ae3.chunk.js",
     "static/js/2.ea655ae3.chunk.js.map": "/jashele-tv/static/js/2.ea655ae3.chunk.js.map",
     "index.html": "/jashele-tv/index.html",
-    "precache-manifest.dc6294769e8a6764d50f003be3a8b257.js": "/jashele-tv/precache-manifest.dc6294769e8a6764d50f003be3a8b257.js",
+    "precache-manifest.a366205791e38a22e3fe5be1984c675e.js": "/jashele-tv/precache-manifest.a366205791e38a22e3fe5be1984c675e.js",
     "service-worker.js": "/jashele-tv/service-worker.js",
-    "static/css/main.cac99aa8.chunk.css.map": "/jashele-tv/static/css/main.cac99aa8.chunk.css.map"
+    "static/css/main.0a3e5734.chunk.css.map": "/jashele-tv/static/css/main.0a3e5734.chunk.css.map"
   }
 }
