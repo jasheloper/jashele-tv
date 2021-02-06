@@ -3,8 +3,6 @@ This React app allows users to see the latest episodes on television. The data i
 
 # Tech Stack
 - React
-- Hooks
-- AJAX
 
 # Preview
 <img src="images/preview.png" alt="preview of Jashele TV" />
