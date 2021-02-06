@@ -8,6 +8,6 @@ This React app allows users to see the latest episodes on television. The data i
 <img src="images/preview.png" alt="preview of Jashele TV" />
 
 # Network
-- [JasheleTillman.Me](https://jasheletillman.me/ "Personal Site")
+- [DevJashele.Tech](https://devjashele.tech/ "Personal Site")
 - [LinkedIn](https://www.linkedin.com/in/jashelet/ "LinkedIn")
 - [Twitter](https://twitter.com/jasheloper "Twitter")
